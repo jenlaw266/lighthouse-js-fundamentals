@@ -5,14 +5,14 @@ for (let repeat = 0; repeat < 10; repeat++) {
 console.log("Until the sun comes up!");
 
 //Loopy Lighthouse
-for(let i=100;i<201;i++){ 
-  if(i%3===0 && i%4===0){ 
+for (let i = 100; i < 201; i++){ 
+  if ( i % 3 === 0 && i % 4 === 0){ 
     console.log("LoopyLighthouse");
-  } else if(i%4===0){ 
+  } else if (i%4===0){ 
     console.log("Lighthouse");
-  } else if(i%3===0){ 
+  } else if (i%3===0){ 
     console.log("Loopy");
-  } else{ 
+  } else { 
     console.log(i);
   }
 }
